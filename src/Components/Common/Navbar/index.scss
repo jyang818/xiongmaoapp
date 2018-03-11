@@ -1,0 +1,149 @@
+nav{
+	font-size: 14px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:0.8rem;
+	background:#fdde4a;
+	padding:0.1rem;
+	z-index:1;
+	:global(.left){
+		float:left;
+	}
+	a{
+		text-decoration: none;
+		color:#333
+	}
+	.search{
+		height:0.30rem;
+		line-height: 0.30rem;
+		margin:0 0.10rem;
+		background:white;
+		color:#877a73;
+		border-radius:0.10rem;
+		width: 90%;
+		padding: 0 0.10rem;
+		input{
+			border:1px solid #fff;
+			width: 94%;
+		}
+	}
+
+	.tab{
+		height: 0.4rem;
+		line-height: 0.4rem;
+		display: flex;
+		flex-flow: row;
+		.frist{
+			width: 20%;
+			span{
+				border-right: 2px solid #877a73
+			}
+			a{
+				margin-right: 0.1rem;
+				
+			}
+
+		}
+		.one{
+			height:.4rem;
+			width:70%;
+			overflow-y:hidden;
+			.two{
+				overflow-x:auto;
+					ul{
+						display:flex;
+						box-sizing:border-box;
+						height:2rem;								
+						li{
+							box-sizing:border-box;													
+							width:1rem;											
+						}
+					}				
+					a{
+						
+						display:block;
+						width:0.6rem;
+						height: 0.4rem;
+    					text-align: center;
+    					margin:0 0.1rem;
+					}
+				}
+		}
+		.last{
+			width:10%;
+		}
+	}
+	:global(.right){
+		float:right;
+	}
+	ul{
+		height:0.40rem;
+		line-height: 0.40rem;
+		li{
+			float:left;
+			list-style: none;
+			
+		}
+	}
+
+}
+.active{
+	color:#43240c;
+	border-bottom:0.04rem solid #43240c;
+}
+::-webkit-scrollbar-thumb {
+		  background-color: rgba(0, 0, 0, 0); 
+	}
+header{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 2
+}
+nav.search{
+	font-size: 16px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:0.5rem;
+	background:#fdde4a;
+	padding:0.1rem;
+	z-index:1;
+	display: flex;
+	line-height: .3rem;
+	text-align:center;
+	:nth-of-type(1){
+		width: 15%;
+		font-size: 16px;
+
+	}
+	:nth-of-type(3){
+		width: 15%;
+		font-size: 16px;
+	}
+.search1{
+		height:0.30rem;
+		line-height: 0.30rem;
+		margin:0 0.10rem;
+		background:#eeeeee;
+		color:#877a73;
+		border-radius:0.05rem;
+		width: 70%;
+		padding: 0 0.10rem;
+		i{
+			margin-right: .1rem;
+		}
+		input{
+			border:0;
+			background: #eeeeee;
+			width: 80%;
+		}
+	}
+}
+.detail{
+	height: 0;
+	padding:0;
+}

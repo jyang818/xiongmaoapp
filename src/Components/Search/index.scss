@@ -1,0 +1,51 @@
+.active{
+	background:red
+}
+ul li{
+	list-style:none
+}
+.shore{
+	margin-bottom:30px;
+	.item{
+		float:left;
+		width:50%;
+		border-right:4px solid #f5f5f9;
+		border-left:4px solid #f5f5f9;
+		margin-bottom:.1rem;
+		height:2.86rem;
+		background:white;
+		img{
+			width:100%
+		}
+		.title{
+			background: url(//img6.lukou.com/js/img/tmall.78fc8a6.png) no-repeat;
+			background-size:0.2rem 0.15rem;
+			text-indent:0.2rem;
+			color:#877a73;
+			height: .32rem;
+			overflow:hidden;
+			word-wrap: break-word;
+		}
+		div{
+			margin-top:.2rem;
+			:nth-of-type(1){
+				color:#fa585a;
+				font-size:18px;
+				font-weight: 600;
+			}
+			:nth-of-type(2){
+				text-decoration:line-through;
+				color:#877a73;
+			}
+			:nth-of-type(3){
+				float:right;
+				width:46px;
+				height:17px;
+				color: #fa585a;
+				background:url(http://img6.lukou.com/js/img/coupon-bg.26d715c.png) ;
+				background-size:contain;
+			}
+		}
+	}
+
+}

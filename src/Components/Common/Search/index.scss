@@ -1,0 +1,50 @@
+.active{
+	background:red
+}
+ul li{
+	list-style:none
+}
+.search{
+	padding:0.2rem;
+	background:white;
+	margin-top:-0.3rem;
+	overflow:hidden;
+	p{
+		color:#877a73;
+		font-size:16px;
+	}
+	.hotWords{
+		overflow:hidden;
+		margin-top: .2rem;
+		margin-bottom: .2rem;
+		div{
+			float:left;
+			padding:0.1rem;
+			background:#eeeeee;
+			margin-right:0.15rem;
+			margin-bottom:0.1rem;
+			border-radius:.05rem;
+		}
+	}
+	.shore{
+		p{
+			color:#877a73;
+			font-size:16px;
+		}
+		ul{
+			width:100%;
+			overflow:hidden;
+			margin-top:.2rem;
+			li{
+				width:25%;
+				float:left;
+				text-align:center;
+				line-height:0.4rem;
+				a{
+					color:#333;
+					font-size:16px;
+				}
+			}
+		}
+	}
+}

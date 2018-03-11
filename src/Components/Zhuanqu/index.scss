@@ -1,0 +1,92 @@
+.active{
+	background:red
+}
+ul li{
+	list-style:none
+}
+#picture{
+	overflow:hidden;
+	width:100%;
+	.cover{
+		margin-bottom:.1rem;
+		img{
+			width:3.75rem
+		}
+	}
+	nav{
+		span,h3{
+			float:left;
+			text-align:center;
+			line-height:.3rem;
+			height:.3rem;
+		}
+		h3{
+			width:87%;
+			text-align:center;
+		}
+		.flex{
+			clear:both;
+			display:flex;
+			height:.3rem;
+			line-height:.3rem;
+			span{
+				width:13%;
+				text-align:center;
+				border-right:2px solid #877a73;
+			}
+			.one{
+				width:87%;
+				height:0.3rem;
+				overflow-y:hidden;
+				line-height:.3rem;
+				.two{
+					overflow-x:auto;
+						ul{
+							display:flex;
+							box-sizing:border-box;
+							height:2rem;								
+							li{
+								box-sizing:border-box;													
+								width:1rem;											
+							}
+						}				
+						a{
+							line-height: 0.3rem;
+							display:block;
+							width:0.6rem;
+							height: 0.3rem;
+	    					text-align: center;
+	    					margin:0 0.1rem;
+						}
+					}
+			}
+		}
+	}
+	.item{
+		width:100%;
+		div:nth-of-type(odd){
+			padding-right:.05rem;
+		}
+		div:nth-of-type(even){
+			padding-left:.05rem;
+		}
+		.content{
+			
+			background-origin:content-box;
+			width:50%;
+			float:left;
+			margin-bottom: .1rem;
+			img{
+				width:100%;
+			}
+			.title{
+				background:white;
+				display:block;
+				p{
+					height:.48rem;
+					overflow:hidden;
+				}
+			}
+		}
+	}
+}

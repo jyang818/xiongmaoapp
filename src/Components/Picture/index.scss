@@ -1,0 +1,41 @@
+.active{
+	background:red
+}
+ul li{
+	list-style:none
+}
+
+#picture{
+	overflow:hidden;
+	width:100%;
+	.cover{
+		margin-bottom:.1rem;
+		img{
+			width:3.75rem
+		}
+	}
+	.item{
+		width:100%;
+		div:nth-of-type(odd){
+			padding-right:.05rem;
+		}
+		div:nth-of-type(even){
+			padding-left:.05rem;
+		}
+		.content{
+			
+			background-origin:content-box;
+			width:50%;
+			float:left;
+			margin-bottom: .1rem;
+			img{
+				width:100%;
+			}
+			.title{
+
+				background:white;
+				display:block;
+			}
+		}
+	}
+}
